@@ -2,7 +2,7 @@ body {
   font-family: "OpenSans", sans-serif;
   font-weight: 400;
   margin: 0;
-  padding: 0 1rem;
+  padding: 0;
   box-sizing: border-box;
   line-height: 1.6;
   font-size: 1rem;
@@ -42,13 +42,13 @@ h1 {
 }
 .tabs-section {
   display: flex;
-  gap: 1rem;
+  gap: 10px;
   justify-content: center;
   margin-bottom: 1.5rem;
   overflow-x: auto;
   width: 100%;
   box-sizing: border-box;
-  padding: 0 10px;
+  padding: 0 1rem;
 }
 .tabs-section label {
   padding: 10px 20px;
@@ -57,7 +57,7 @@ h1 {
   cursor: pointer;
   background-color: #eee;
   transition: all 0.3s;
-  border-radius: 3px 3px 0 0;
+  border-radius: 5px;
   flex: 0 0 auto;
   white-space: nowrap;
 }
