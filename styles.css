@@ -1,0 +1,113 @@
+body {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  line-height: 1.6;
+  font-size: 1rem;
+  background-color: #e9ecef;
+  text-align: center;
+}
+.tabs-container {
+  max-width: 1100px;
+  background-color: #dee2e6;
+  padding: 0 1rem 1.25rem 1rem;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+@font-face {
+  font-family: "OpenSans", sans-serif;
+  src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans", sans-serif;
+  src: url("fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans", sans-serif;
+  src: url("fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+h1 {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
+.tabs-section {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.tabs-section label {
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+  border-bottom: none;
+  cursor: pointer;
+  background-color: #eee;
+  transition: all 0.3s;
+  border-radius: 3px 3px 0 0;
+}
+.tabs-section label:hover {
+  background-color: #ddd;
+}
+h2 {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+h3 {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+.content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.tab-content {
+  max-width: 1100px;
+  background-color: #6c757d;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.tab-content p {
+  direction: ltr;
+  text-align: left;
+}
+#content5 {
+  margin-bottom: -12px;
+}
+input[type="radio"] {
+  display: none;
+}
+.content-section div {
+  display: none;
+}
+#tab1:checked ~ .content-section #content1 {
+  display: block;
+}
+#tab2:checked ~ .content-section #content2 {
+  display: block;
+}
+#tab3:checked ~ .content-section #content3 {
+  display: block;
+}
+#tab4:checked ~ .content-section #content4 {
+  display: block;
+}
+#tab5:checked ~ .content-section #content5 {
+  display: block;
+}
