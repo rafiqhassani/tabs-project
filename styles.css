@@ -45,15 +45,21 @@ h1 {
   gap: 1rem;
   justify-content: center;
   margin-bottom: 1.5rem;
+  overflow-x: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 .tabs-section label {
-  padding: 0.5rem 1rem;
+  padding: 10px 20px;
   border: 1px solid #333;
   border-bottom: none;
   cursor: pointer;
   background-color: #eee;
   transition: all 0.3s;
   border-radius: 3px 3px 0 0;
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 .tabs-section label:hover {
   background-color: #ddd;
