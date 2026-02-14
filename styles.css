@@ -43,7 +43,7 @@ h1 {
 .tabs-section {
   display: flex;
   gap: 10px;
-  justify-content: center;
+  scroll-behavior: smooth;
   margin-bottom: 1.5rem;
   overflow-x: auto;
   width: 100%;
